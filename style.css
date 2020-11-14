@@ -59,4 +59,5 @@ ul li.active a{
 .content h1{
     color: #fff;
     font-size: 30px;
+    position: absolute;
 }
