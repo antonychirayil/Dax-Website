@@ -25,10 +25,30 @@ ul li a{
     text-decoration: none;
     color: #000000;
     padding: 10px 30px;
-    
+    transition: 0.3s ease-in;
+    border: transparent;
 }
 
 ul li a:hover{
     background-color: rgb(243, 211, 211);
     color: #000000;
+}
+ul li.active a{
+    background-color: rgb(243, 211, 211);
+    color: #000000 ;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content{
+    float: right;
 }
