@@ -56,8 +56,10 @@ ul li.active a{
     transform: translate(-50%,-50%);
 }
 
-.content h1{
+.content h4{
     color: #fff;
     font-size: 30px;
     position: absolute;
+    text-align: left ;
+    
 }
